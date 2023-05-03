@@ -1,0 +1,4 @@
+name: EndPortalEntityExitRelocate
+version: '${project.version}'
+main: com.gradyn.endportalentityexitrelocate.EndPortalEntityExitRelocate
+api-version: 1.19
