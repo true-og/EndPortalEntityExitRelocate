@@ -39,12 +39,5 @@ public class PortalExitListener implements Listener {
         } else {
             y = EndPortalEntityExitRelocate.config.getDouble("location.y");
         }
-        event.setTo(
-                new Location(
-                        Bukkit.getWorld(EndPortalEntityExitRelocate.config.getString("world")),
-                        EndPortalEntityExitRelocate.config.getDouble("location.x"),
-                        y,
-                        EndPortalEntityExitRelocate.config.getDouble("location.z")
-                        ));
     }
 }
